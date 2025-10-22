@@ -75,12 +75,5 @@ This app will focus on usability and simplicity, suitable for a student develope
 | **Compatibility**   | Should work on **web** and **mobile** (React Native or Flutter).                              |
 | **Accessibility**   | Text and buttons must be readable and properly labeled for clarity.                           |
 
----
 
-## **2.3 Suggested Tech Stack (Beginner-Friendly)**
-
-* **Frontend:** React (Web) or React Native (Mobile)
-* **Backend:** Firebase (Authentication, Firestore DB)
-* **Tools:** GitHub, VS Code, Figma (UI mockup), ChatGPT (AI assistant)
-* **Deployment:** Firebase Hosting / Expo for mobile
 
