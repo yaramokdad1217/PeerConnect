@@ -25,7 +25,7 @@ student --> UC4 : accesses
 UC2 --> UC3 : <<include>>
 UC1 --> UC2 : <<extend>>
 @enduml
-'''
+```
 📊 Rendered Diagram:
 <p align="center"> <img src="http://cdn-0.plantuml.com/plantuml/png/VP31IWD138RlUOgmznviUvAoLDQZ1r7q7cVYDZ1cO995GNntipWWxQ5pcI7Vn_yFEPfJy-MZGE5tHw_OP3uvPccSNAe29QyDXsTVCgiFI8RszmPO7TAvC0wFp6sggfp2-GQCinWdic1FF8ivDxnBgIuzv6MwERSUwYpQqVOSlLAHJCuuDLwRXOfrStTX2d_YFTdfhLBBtTd33q3_D6usuzgDjoWgaUHi5snxXUs3KKfi5WZ2xVDTp0y7qLJ27aU8Xl-q8Fpbh3d0CQvOzoy0" alt="First AI Generated Diagram" width="600"> </p>
 ### 🧠 Refined AI-Generated Code
@@ -57,5 +57,6 @@ UC2 --> UC3 : <<include>>
 UC3 --> UC4 : <<include>>
 UC1 --> UC2 : <<extend>>
 @enduml
+```
 📊 Rendered Diagram:
-<p align="center"> <img src="http://cdn-0.plantuml.com/plantuml/png/POy_Rm8n3CNtV0hhbauC_9agX2XKdHWgKBkxEVUmoCN8yOd-KRzx4n6XGgV4x_Vq_BnCXcf37roWTmCJKExs1YqhUME9BXqu7b6n1_GckhFFG80dIjBJ7pWayfW8lXt02lsXKnbYkvOW2fiIkGe35IRQafxrHzH3bPyasew_2CQJEfqjgv2pt8zpM9P3ixEXfMWDO89q_ZjNgcBi0a7pJ2KyHlBPKxh0fLcpfOwJaSA3zpBKa9Vr-DgraOvZHPDhz8g1MpI2jLBPp1XITKvld4odV5xQlmbgMpspSiSTR2cWiSIqvsDozGWOZHQb2zo3rfgtR99Pa2u1H-VoMELfbkTpZZvaysBXibB9x1yPNw8AeG-Zs6QmpC_GXry0" alt="Refined AI Diagram" width="600"> </p> ```
+<p align="center"> <img src="http://cdn-0.plantuml.com/plantuml/png/POy_Rm8n3CNtV0hhbauC_9agX2XKdHWgKBkxEVUmoCN8yOd-KRzx4n6XGgV4x_Vq_BnCXcf37roWTmCJKExs1YqhUME9BXqu7b6n1_GckhFFG80dIjBJ7pWayfW8lXt02lsXKnbYkvOW2fiIkGe35IRQafxrHzH3bPyasew_2CQJEfqjgv2pt8zpM9P3ixEXfMWDO89q_ZjNgcBi0a7pJ2KyHlBPKxh0fLcpfOwJaSA3zpBKa9Vr-DgraOvZHPDhz8g1MpI2jLBPp1XITKvld4odV5xQlmbgMpspSiSTR2cWiSIqvsDozGWOZHQb2zo3rfgtR99Pa2u1H-VoMELfbkTpZZvaysBXibB9x1yPNw8AeG-Zs6QmpC_GXry0" alt="Refined AI Diagram" width="600"> </p>
