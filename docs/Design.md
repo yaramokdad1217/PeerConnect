@@ -3,6 +3,7 @@
 ### 🎯 Use Case Diagram
 
 ---
+![PeerConnect Use Case Diagram](usecasediagram.png)
 
 #### 🧠 Code
 
@@ -35,4 +36,3 @@ UC3 --> UC4 : <<include>>
 UC1 --> UC2 : <<extend>>
 
 @enduml
-![PeerConnect Use Case Diagram](usecasediagram.png)
