@@ -25,6 +25,7 @@ student --> UC4 : accesses
 UC2 --> UC3 : <<include>>
 UC1 --> UC2 : <<extend>>
 @enduml
+'''
 📊 Rendered Diagram:
 <p align="center"> <img src="http://cdn-0.plantuml.com/plantuml/png/VP31IWD138RlUOgmznviUvAoLDQZ1r7q7cVYDZ1cO995GNntipWWxQ5pcI7Vn_yFEPfJy-MZGE5tHw_OP3uvPccSNAe29QyDXsTVCgiFI8RszmPO7TAvC0wFp6sggfp2-GQCinWdic1FF8ivDxnBgIuzv6MwERSUwYpQqVOSlLAHJCuuDLwRXOfrStTX2d_YFTdfhLBBtTd33q3_D6usuzgDjoWgaUHi5snxXUs3KKfi5WZ2xVDTp0y7qLJ27aU8Xl-q8Fpbh3d0CQvOzoy0" alt="First AI Generated Diagram" width="600"> </p>
 ### 🧠 Refined AI-Generated Code
