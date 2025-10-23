@@ -36,3 +36,55 @@ UC3 --> UC4 : <<include>>
 UC1 --> UC2 : <<extend>>
 
 @enduml
+```
+---
+
+### 🎯 Class Diagram
+
+---
+![PeerConnect Use Case Diagram](classdiagram.png)
+
+#### 🧠 Code
+
+```plantuml
+@startuml
+' Simple and clear style
+skinparam classAttributeIconSize 0
+skinparam roundcorner 10
+skinparam shadowing false
+skinparam classFontName Arial
+skinparam classFontSize 12
+
+' Classes
+class Student {
+    - studentId: String
+    - name: String
+    - email: String
+    - password: String
+    + register()
+    + login()
+}
+
+class AuthController {
+    + handleRegistration()
+    + handleLogin()
+    + validateCredentials()
+}
+
+class UserService {
+    + saveUser(user: Student)
+    + getUserByEmail(email: String): Student
+}
+
+class Database {
+    + storeData(data: Object)
+    + retrieveData(query: Object): Object
+}
+
+' Relationships
+Student --> AuthController : interacts
+AuthController --> UserService : uses
+UserService --> Database : connects to
+
+@enduml
+```
