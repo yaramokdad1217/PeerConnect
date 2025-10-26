@@ -88,3 +88,48 @@ UserService --> Database : connects to
 
 @enduml
 ```
+---
+
+### 🎯 Sequence Diagram Flow 1
+
+---
+![PeerConnect Sequence Diagram Flow 1](Sequencediagramflow1.png)
+
+#### 🧠 Code
+```plantuml
+@startuml
+actor Student
+participant "UI (Registration Form)" as UI
+participant AuthController
+participant UserService
+database Database
+
+== User Registration Flow ==
+
+Student -> UI : Enter name, email, password
+activate UI
+
+UI -> AuthController : sendRegistrationData(name, email, password)
+activate AuthController
+
+AuthController -> UserService : saveUser(name, email, password)
+activate UserService
+
+UserService -> Database : storeData(user)
+activate Database
+Database --> UserService : registrationSuccess
+deactivate Database
+
+UserService --> AuthController : userSavedConfirmation
+deactivate UserService
+
+AuthController --> UI : registrationSuccessResponse
+deactivate AuthController
+
+UI --> Student : Display success message
+deactivate UI
+
+@enduml
+```
+---
+
