@@ -1,7 +1,7 @@
 # 📚 PeerConnect Documentation & User Guide
 
 **Project:** PeerConnect  
-**Author:** Mahdi  
+**Author:** Yara Mokdad 
 **Date:** 26-Oct-2025  
 
 ---
