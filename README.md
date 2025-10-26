@@ -25,9 +25,11 @@ Future versions will integrate peer search, messaging, and skill tagging.
     - `models.py` — Pydantic models for requests/responses  
   - `main.py` — Main FastAPI entry point that mounts the auth routes  
 
-- **tests/**
+  - **tests/**
   - `test_service.py` — Unit tests for service logic  
-  - `test_controller.py` — Integration tests for API routes  
+  - `test_controller.py` — Integration tests for API routes
+    
+ - `requirements.txt` — Python dependencies for running the app  
 
 - **docs/**
   - `project_proposal.md` — Project proposal and initial sprint goals  
@@ -41,4 +43,3 @@ Future versions will integrate peer search, messaging, and skill tagging.
   - `Sequencediagramflow1.png` — Sequence diagram (registration flow)  
   - `Sequencediagramflow2.png` — Sequence diagram (login flow)  
 
-- `requirements.txt` — Python dependencies for running the app  
