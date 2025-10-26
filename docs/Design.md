@@ -90,7 +90,7 @@ UserService --> Database : connects to
 ```
 ---
 
-### 🎯 Sequence Diagram Flow 1
+### 🎯 Sequence Diagram Flow 1: User Registration
 
 ---
 ![PeerConnect Sequence Diagram Flow 1](Sequencediagramflow1.png)
@@ -132,4 +132,51 @@ deactivate UI
 @enduml
 ```
 ---
+### 🎯 Sequence Diagram Flow 2: User Login
 
+---
+![PeerConnect Sequence Diagram Flow 1](Sequencediagramflow2.png)
+
+#### 🧠 Code
+```plantuml
+@startuml
+actor Student
+participant "UI (Login Form)" as UI
+participant AuthController
+participant UserService
+database Database
+
+== User Login Flow ==
+
+Student -> UI : Enter email, password
+activate UI
+
+UI -> AuthController : sendLoginCredentials(email, password)
+activate AuthController
+
+AuthController -> UserService : getUserByEmail(email)
+activate UserService
+
+UserService -> Database : retrieveData(email)
+activate Database
+Database --> UserService : userRecord
+deactivate Database
+
+UserService --> AuthController : returnUserRecord(user)
+deactivate UserService
+
+AuthController -> AuthController : validateCredentials(password, user.password)
+alt Valid Credentials
+    AuthController --> UI : loginSuccess()
+    UI --> Student : Navigate to Dashboard
+else Invalid Credentials
+    AuthController --> UI : loginFailed("Invalid email or password")
+    UI --> Student : Display error message
+end
+deactivate AuthController
+deactivate UI
+
+@enduml
+
+```
+---
