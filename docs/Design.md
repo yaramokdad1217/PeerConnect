@@ -180,3 +180,44 @@ deactivate UI
 
 ```
 ---
+### 🎯 Component Diagram
+
+---
+![PeerConnect Sequence Diagram Flow 1](Componentdiagram.png)
+
+#### 🧠 Code
+```plantuml
+@startuml
+title PeerConnect – Sprint 1: Authentication Module (Component Diagram)
+
+skinparam componentStyle rectangle
+skinparam rectangle {
+  RoundCorner 15
+  BorderColor #666666
+}
+skinparam component {
+  BackgroundColor<<Client>> #E3F2FD
+  BackgroundColor<<Backend>> #E8F5E9
+  BackgroundColor<<Firebase>> #FFF8E1
+}
+
+'======================
+' Components
+'======================
+component "Web / Mobile Client\n(React / React Native)" <<Client>> as Client
+component "Authentication Controller\n(API / Server Logic)" <<Backend>> as AuthController
+component "Firebase Authentication\n(User Auth Service)" <<Firebase>> as FirebaseAuth
+component "Firebase Firestore\n(Database)" <<Firebase>> as Firestore
+
+'======================
+' Dependencies
+'======================
+Client --> AuthController : <<uses>> REST API
+AuthController --> FirebaseAuth : <<uses>> Authenticate / Create User
+AuthController --> Firestore : <<uses>> Store / Retrieve Data
+FirebaseAuth --> Firestore : <<depends>> UID reference (optional)
+
+@enduml
+
+
+```
