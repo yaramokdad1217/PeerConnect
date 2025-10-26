@@ -17,32 +17,28 @@ Future versions will integrate peer search, messaging, and skill tagging.
 
 ## 📁 Repository Structure
 
-PeerConnect/
-├── app/
-│   ├── auth/
-│   │   ├── controller.py              # FastAPI endpoints for registration and login
-│   │   ├── service.py                 # Handles core logic (register, login, password hashing)
-│   │   └── models.py                  # Pydantic models for requests/responses
-│   │
-│   └── main.py                        # Main FastAPI entry point, mounts auth routes
-│
-├── tests/
-│   ├── test_service.py                # Unit tests for service logic
-│   └── test_controller.py             # Integration tests for API routes
-│
-├── docs/
-│   ├── project_proposal.md            # Project proposal and initial sprint goals
-│   ├── Design.md                      # UML and design documentation
-│   ├── Refactor & optimization report.md  # Refactoring summary and metrics
-│   ├── Documentation & User Guide.md  # App usage and instructions
-│   ├── AI usage log.md                # Prompts and AI reflection
-│   ├── classdiagram.png               # UML class diagram
-│   ├── usecasediagram.png             # UML use-case diagram
-│   ├── Componentdiagram.png           # Deployment component diagram
-│   ├── Sequencediagramflow1.png       # Sequence diagram: registration
-│   └── Sequencediagramflow2.png       # Sequence diagram: login
-│
-└── requirements.txt                   # Python dependencies for running the app
+**PeerConnect/**
+- **app/**
+  - **auth/**
+    - `controller.py` — FastAPI endpoints for registration and login  
+    - `service.py` — Handles core logic (register, login, password hashing)  
+    - `models.py` — Pydantic models for requests/responses  
+  - `main.py` — Main FastAPI entry point that mounts the auth routes  
 
+- **tests/**
+  - `test_service.py` — Unit tests for service logic  
+  - `test_controller.py` — Integration tests for API routes  
 
+- **docs/**
+  - `project_proposal.md` — Project proposal and initial sprint goals  
+  - `Design.md` — UML and design documentation  
+  - `Refactor & optimization report.md` — Refactoring summary and metrics  
+  - `Documentation & User Guide.md` — App usage and setup instructions  
+  - `AI usage log.md` — Prompts and AI reflection  
+  - `classdiagram.png` — UML class diagram  
+  - `usecasediagram.png` — UML use-case diagram  
+  - `Componentdiagram.png` — Deployment component diagram  
+  - `Sequencediagramflow1.png` — Sequence diagram (registration flow)  
+  - `Sequencediagramflow2.png` — Sequence diagram (login flow)  
 
+- `requirements.txt` — Python dependencies for running the app  
