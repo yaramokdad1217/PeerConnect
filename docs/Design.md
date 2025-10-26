@@ -1,4 +1,4 @@
-## 🧩 Design Phase
+## 🧩 Design Phase (Sprint 1 – Authentication Module)
 
 ### 🎯 Use Case Diagram
 
