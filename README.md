@@ -3,7 +3,7 @@
 PeerConnect is a web (FastAPI) and mobile-ready backend prototype that helps university students connect for study sessions, group projects, and peer tutoring. This repository contains the Sprint 1 authentication module (registration + login), unit and integration tests, and documentation for getting the project running locally.
 ---
 **First sketch of PeerConnect sprint 1 UI pages:**
-https://www.figma.com/make/jMnICis0nyWg0H3tTVv0bi/Student-Study-Collaboration-App?node-id=0-1&p=f&t=iQtfhFFNcazPFkcy-0&fullscreen=1
+[https://www.figma.com/make/jMnICis0nyWg0H3tTVv0bi/Student-Study-Collaboration-App?node-id=0-1&p=f&t=iQtfhFFNcazPFkcy-0&fullscreen=1](https://www.figma.com/make/jCi7V6a97KbNqbxRtOXYtp/PeerConnect-Student-App-Design?fullscreen=1)
 
 ---
 
