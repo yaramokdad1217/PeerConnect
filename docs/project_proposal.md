@@ -10,7 +10,7 @@ The system simplifies peer discovery and scheduling by letting users:
 * **Message group members**
 * View basic **skill levels or experience**
 
-This app will focus on usability and simplicity, suitable for a student developer working with an AI coding assistant.
+
 
 ---
 
