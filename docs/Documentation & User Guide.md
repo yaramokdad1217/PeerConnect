@@ -109,7 +109,3 @@ Future features include:
 - Real-time messaging and session notifications  
 - Web and mobile UI improvements for better usability  
 
----
-
-## 7️⃣ Summary
-This document serves as both **developer documentation** and a **user guide**. It explains the structure of the application, the functionality of each component, and how a user can interact with the current features (registration and login). Future updates will expand these instructions as new features are implemented.
