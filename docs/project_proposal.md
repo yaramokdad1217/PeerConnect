@@ -75,11 +75,14 @@ The system simplifies peer discovery and scheduling by letting users:
 | **Compatibility**   | Should work on **web** and **mobile** (React Native or Flutter).                              |
 | **Accessibility**   | Text and buttons must be readable and properly labeled for clarity.                           |
 
----
-**2. UML Diagrams**
 
 ---
-**2. UI Design**
+
+**3. UML Diagrams**
+https://github.com/yaramokdad1217/PeerConnect/blob/main/docs/Design.md
+---
+
+**4. UI Design**
 First sketch of PeerConnect sprint 1 UI pages: https://www.figma.com/make/jMnICis0nyWg0H3tTVv0bi/Student-Study-Collaboration-App?node-id=0-1&p=f&t=iQtfhFFNcazPFkcy-0&fullscreen=1
 ---
 
