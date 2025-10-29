@@ -83,6 +83,6 @@ https://github.com/yaramokdad1217/PeerConnect/blob/main/docs/Design.md
 ---
 
 **4. UI Design**
-First sketch of PeerConnect sprint 1 UI pages: https://www.figma.com/make/jMnICis0nyWg0H3tTVv0bi/Student-Study-Collaboration-App?node-id=0-1&p=f&t=iQtfhFFNcazPFkcy-0&fullscreen=1
+First sketch of PeerConnect sprint 1 UI pages:[ https://www.figma.com/make/jMnICis0nyWg0H3tTVv0bi/Student-Study-Collaboration-App?node-id=0-1&p=f&t=iQtfhFFNcazPFkcy-0&fullscreen=1](https://www.figma.com/make/jCi7V6a97KbNqbxRtOXYtp/PeerConnect-Student-App-Design?node-id=0-1&p=f&t=tGDFhgIlkVTbiDCw-0&fullscreen=1)
 ---
 
